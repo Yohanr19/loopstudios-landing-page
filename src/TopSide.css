@@ -1,0 +1,33 @@
+.topside-container {
+    height: 100vh;
+    background: url(./images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-logo{
+   position: absolute;
+   width: 100%;
+   top: 1rem;
+}
+.logo{
+    float:left;
+    padding: 1rem;
+}
+.menu-icon{
+    float:right;
+     padding-top: 1.5rem;
+     padding-right: 1rem;
+}
+.topside-text{
+    padding: 1rem;
+    margin-left:1rem ;
+    margin-right:1rem ;
+    border: 3px solid white;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 30vh;
+    font-family: Josefin Sans;
+    font-size: 1.18rem;
+    font-weight: 300;
+}

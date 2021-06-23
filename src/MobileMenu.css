@@ -1,0 +1,15 @@
+.mobile-menu {
+    background-color: black;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    display: none;
+}
+.menu-options {
+    text-transform: uppercase;
+     color: white;
+     padding-left: 1rem;
+}
+.menu-options h3{
+     padding: 0.5rem 0.2rem;
+}

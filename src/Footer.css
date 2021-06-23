@@ -1,0 +1,22 @@
+#footer {
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.footer-logo{
+    margin-top: 2rem;   
+}
+#footer h3{
+    color: white;
+}
+.copyright {
+    color: var(--VeryDarkGray);
+    font-size: 1.2rem;
+    text-align: center;
+}
+.social-icon{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
