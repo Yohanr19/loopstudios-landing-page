@@ -52,8 +52,11 @@
         font-size: 2rem;
     }
     .menu-logo{
-        margin-left: 15% ;
         margin-top: 2rem;
+        
+    }
+    .logo{
+        padding-left: 15%;
     }
     .topside-text h1{ 
         padding: 2rem;
