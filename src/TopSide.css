@@ -18,6 +18,19 @@
      padding-top: 1.5rem;
      padding-right: 1rem;
 }
+.desktop-options{
+    color: white;
+    display: flex;
+}
+.desktop-options h3{
+    padding: 1rem 0.8rem;
+}
+.desktop-menu{
+    position: absolute;
+    top: 3rem; 
+    right: 10%;
+    display: none;
+}
 .topside-text{
     padding: 1rem;
     margin-left:1rem ;
@@ -30,4 +43,22 @@
     font-family: Josefin Sans;
     font-size: 1.18rem;
     font-weight: 300;
+    max-width: 30ch;
+}
+@media screen and (min-width: 1000px) {
+    .topside-text{
+        max-width: 50%;
+        margin-left: 15% ;
+        font-size: 2rem;
+    }
+    .menu-logo{
+        margin-left: 15% ;
+        margin-top: 2rem;
+    }
+    .topside-text h1{ 
+        padding: 2rem;
+    }
+    .desktop-menu{
+        display: block;
+    }
 }

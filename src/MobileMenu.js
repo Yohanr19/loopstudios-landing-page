@@ -1,9 +1,11 @@
 import React from 'react'
 import './MobileMenu.css'
 
-const MobileMenu = () => {
+const MobileMenu = (props) => {
+
+    const isDisplayed = props.isDisplayed
     return (
-        <div className='mobile-menu'>
+        <div className='mobile-menu' style={isDisplayed?{display: 'grid'}:{display:'none'}}>
             <div className='menu-options'>    
             <h3>About </h3>
             <h3>Careers </h3>

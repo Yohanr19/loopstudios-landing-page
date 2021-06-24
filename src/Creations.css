@@ -42,3 +42,31 @@
 :hover .more, .creation {
     cursor: pointer;
 }
+@media screen and (min-width: 1000px) {
+    #creations .header {
+        text-align: start;
+        padding-left: 4rem;
+    }
+    #creations{
+        position: relative;
+        margin-top: 5rem;
+    }
+    #creations .more{
+        position: absolute;
+        max-width: 10ch;
+        top: 0;
+        right: 7%;
+    }
+    .creations-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
+        margin: 3rem auto;
+    }
+    .creation {
+        min-height: 400px;
+    }
+    .creation-img {
+       height: 100%;
+    }
+    
+}

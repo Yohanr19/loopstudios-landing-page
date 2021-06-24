@@ -1,9 +1,8 @@
 .mobile-menu {
     background-color: black;
     min-height: 100vh;
-    display: grid;
     align-items: center;
-    display: none;
+
 }
 .menu-options {
     text-transform: uppercase;

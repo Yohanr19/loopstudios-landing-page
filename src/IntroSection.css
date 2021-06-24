@@ -26,3 +26,30 @@
     padding-left: 1rem;
     text-align: center;
 }
+@media screen and (min-width: 1000px) {
+    .interactive-img {
+        width: 100%;
+        position: relative;
+        left: 10%;
+    }
+    #IntroSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .interactive-header-container{
+        background-color: white;
+        width: 90%;
+        position: relative;
+        right: 10%;
+        top: 40%;
+    }
+    .interactive-header{
+        padding: 2.5rem;
+        text-align: start;
+    }
+    .interactive-text{
+        padding: 2.5rem;
+        padding-top: 1rem;
+        text-align: start;
+    }
+}
